@@ -16,3 +16,6 @@ ActiveRecord::Base.establish_connection(
 )
 
 require_relative "../artist.rb"
+
+
+#the environment.rb file contains things we want to read and make available to our ruby application when it starts.
