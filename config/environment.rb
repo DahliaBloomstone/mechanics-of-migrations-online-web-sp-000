@@ -10,9 +10,9 @@ Bundler.require
 
 
 # put the code to connect to the database here
-# establish connection method from ActiveRecord::Base to connect to our artists database 
+# establish connection method from ActiveRecord::Base to connect to our artists database
 ActiveRecord::Base.establish_connection(
-  :adapter => "sqlite3",
+  :adapter => "sqlite3", #created in the migration via sqlite3 adapter
   :database => "db/artists.sqlite"
 )
 
