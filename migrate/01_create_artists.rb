@@ -8,4 +8,7 @@ end
 
 
 
-#create artists migration will generate our artists table with the appropriate columns 
+#create artists migration will generate our artists table with the appropriate columns
+
+#create a table using SQL with ActiveRecord?
+#IRB: irb -r active_record
