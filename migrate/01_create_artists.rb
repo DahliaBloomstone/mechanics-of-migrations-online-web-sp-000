@@ -8,7 +8,7 @@ end
 
 #With the connection to the database, we should have access to ActiveRecord::Migration and can create tables using Ruby:
 def change
-  create_table :artists do |t|
+  create_table :artists do |t| #passed the name of the table we want to create as a symbol
   end
 end
 
