@@ -20,7 +20,4 @@ def change
 end
 
 #create artists migration will generate our artists table with the appropriate columns
-
-#create a table using SQL with ActiveRecord?
-#IRB: irb -r active_record
-#Migrations help think about purpose not syntax.
+#Primary key? active record will generate that.
