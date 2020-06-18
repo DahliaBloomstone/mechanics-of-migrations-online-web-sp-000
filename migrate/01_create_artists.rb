@@ -6,6 +6,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   end
 end
 
+#With the connection to the database, we should have access to ActiveRecord::Migration and can create tables using Ruby:
 def change
   create_table :artists do |t|
   end
