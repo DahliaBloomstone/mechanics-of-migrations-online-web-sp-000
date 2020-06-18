@@ -10,10 +10,10 @@ end
 def change
   create_table :artists do |t| #passed the name of the table we want to create as a symbol
     t.string :name
-         t.string :genre
-         t.integer :age
-         t.string :hometown
-       end 
+    t.string :genre
+    t.integer :age
+    t.string :hometown
+       end
   end
 end
 
