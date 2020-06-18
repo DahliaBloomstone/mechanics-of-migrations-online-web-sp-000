@@ -20,3 +20,10 @@ end
 
 # Artist.create(name: 'Kelly')
 # => #<Artist id: 2, name: "Kelly", genre: nil, age: nil, hometown: nil>
+
+# Artist.find_by(name: 'Jon')
+# => #<Artist id: 1, name: "Jon", genre: nil, age: 30, hometown: nil>
+
+#Artist.all (Array of all artists from the database)
+# => [#<Artist id: 1, name: "Jon", genre: nil, age: 30, hometown: nil>,
+ #<Artist id: 2, name: "Kelly", genre: nil, age: nil, hometown: nil>]
