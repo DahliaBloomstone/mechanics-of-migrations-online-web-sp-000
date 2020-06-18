@@ -17,3 +17,6 @@ end
 
 #a.save
 # => true
+
+# Artist.create(name: 'Kelly')
+# => #<Artist id: 2, name: "Kelly", genre: nil, age: nil, hometown: nil>
